@@ -162,3 +162,18 @@ footer nav ul{
 footer nav ul li{
     margin: 25px 0;
 }
+
+
+
+
+/* Contact Us Page */
+
+#contactUs{
+    display: flex;
+    flex-direction: column;
+}
+
+#contactUs div{
+    display: flex;
+    flex-direction: column;
+}

@@ -19,7 +19,7 @@ function Footer(){
                     <ul>
                         <li><h3>Contact details</h3></li>
                         <li><a href="">ndongajared@gmail.com</a></li>
-                        <li><a href="">+375-25-697-8184 </a></li>
+                        <li><h4>Tel: +375-25-697-8184</h4></li>
                         <li><a href="https://www.linkedin.com/in/lorisjaredndonga/">My LinkedIn</a></li>
                     </ul>
                     

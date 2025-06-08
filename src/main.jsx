@@ -6,13 +6,15 @@ import Header from './header.jsx'
 import Footer from './footer.jsx'
 import Body from './body.jsx'
 import Newsletter from './newsletter.jsx'
+import Contact from './contact.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
-    <Body />
-    <Newsletter />
-    <App />
+    <Contact />
+    {/* <Body /> */}
+    {/* <Newsletter /> */}
+    {/* <App /> */}
     <Footer />
   </StrictMode>,
 )
