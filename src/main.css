@@ -167,13 +167,47 @@ footer nav ul li{
 
 
 /* Contact Us Page */
-
+#Contact{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    border: 3px solid var(--gunmetal);
+    border-radius: 40px;
+}
+#Contact section{
+    width: 50%;
+}
 #contactUs{
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
-#contactUs div{
+#contactUs fieldset{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 5px;
+    border: 3px solid var(--gunmetal);
+    border-radius: 20px;
+    
+}
+
+#contactUs input{
+    display: block;
+}
+#contactUs textarea{
+    padding: 15px;
+    width:93%;
+    margin: 5px auto;
+    border-radius: 20px;
+    border: 3px solid var(--gunmetal);
+}
+
+#contactMine{
+    justify-items: center;
+    align-content: center;
+    /* border-left: 1px solid var(--gunmetal); */
 }
